@@ -1,2 +1,2 @@
-# franstaljusstoperi
-Home page for fränstaLjusStöperi
+# Fränsta ljusstöperi :candle:
+Minimal website for Fränsta Ljuststöperi
