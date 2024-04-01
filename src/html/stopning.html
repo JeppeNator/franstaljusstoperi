@@ -6,21 +6,22 @@
         <link rel="stylesheet" href="../css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
-        <title>🕯 Fränsta ljusstöperi</title>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <title>Fränsta ljusstöperi</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../../img/candle.png" />
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script> $(function(){ $("#header").load("header.html"); });</script> 
+        <script> $(function(){ $("#footer").load("footer.html"); });</script>
     </head>
 <body>
-    <header>
-        <img src="../../img/candle.png" alt="canlde">
-        <div class="name"><b>Fränsta ljusstöperi</b></div> 
-    </header>
+    <div id="header"></div>
     <nav class="navbar">
         <ul>
             <li>
                 <a href="../../index.html">Hem</a>
             </li>
             <li>
-                <a href="prices.html">Sortiment</a> 
+                <a href="assortment.html">Sortiment</a> 
             </li>
             <li class="active">
                 Om stöpning
@@ -64,21 +65,24 @@
             </p>
                 <br> Du stöper 8 ljus som är ca 30 cm långa. Fika ingår. Tid: ca 2,5h.
             </p> Pris 395:-
-        </p> Vill du lägga till ett grenljus/figurljus 200:- extra. Möjlighet att lägga till mat, läs om alt. på AfterWork-stöpet.
+        </p> Vill du lägga till ett grenljus/figurljus 200:- extra.
             </p>
             <br>
             <b>Färg-stöpet:</b></p>
         
             <br> Du stöper 16 ljus som är ca 30 cm långa och du får färga de ljus du vill. Fika ingår. Tid ca 3h. 
         </p> Pris 745:-
-        </p>Vill du lägga till ett grenljus/figurljus, 200:- extra. Möjlighet att lägga till mat, läs om alt. på AfterWork-stöpet.
+        </p>Vill du lägga till ett grenljus/figurljus, 200:- extra.
     </p>
         <br>
         <b>AfterWork/storgrupp-stöpet (max 22 personer):</b></p>
         <br>Ni stöper ett grenljus eller ett figurljus. Fika ingår. Tid ca 2,5h.
     </p> Pris 395:-
 </p>
-    </p> Det finns möjlighet i alla olika stöpen att välja till mat, 175:-/pers.
+    </p>
+    
+    <br><br><b> Det finns möjlighet i alla olika stöpen att välja till mat, för 175:-/pers.</b>
+    <br><br>
 </p>Alt 1. Soppa med tillbehör.
 </p>Alt 2. Smörgåstårta.
 </p>Alt 3. Pizza.
@@ -105,21 +109,6 @@
                 </div>
         </div>
     </div>
-    <footer>
-        <div class="info">
-            <ul>
-                <li>Komsta 147</li>
-                <li>841 71 Fränsta</li>
-                <li> <a href="mailto:franstaljusstoperi@gmail.com">maila oss</a></li>
-            </ul>
-            <div class="social-media-links">
-                <ul>
-                    <il><a href= "https://www.facebook.com/fransta18/"> <img src="../../img/fblogo.png" alt="Facebook Logo"></a></il>
-                    <il><a href= "https://www.instagram.com/franstaljusstoperi/"> <img src="../../img/instalogo.png" alt="Instagram"></a></il>
-                </ul>
-            </div>
-        </div>
-        
-    </footer>
+    <div id="footer"></div>
   </body>
 </html>

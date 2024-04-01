@@ -6,21 +6,22 @@
         <link rel="stylesheet" href="../css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
-        <title>🕯 Fränsta ljusstöperi</title>
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <title>Fränsta ljusstöperi</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../../img/candle.png" />
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script> $(function(){ $("#header").load("header.html"); });</script>
+        <script> $(function(){ $("#footer").load("footer.html"); });</script>
     </head>
 <body>
-    <header>
-        <img src="../../img/candle.png" alt="canlde">
-        <div class="name">🕯 Fränsta ljusstöperi 🕯</div> 
-    </header>
+    <div id="header"></div>
     <nav class="navbar">
         <ul>
             <li>
                 <a href="../../index.html">Hem</a>
             </li>
             <li>
-                <a href="prices.html">Sortiment</a> 
+                <a href="assortment.html">Sortiment</a> 
             </li>
             <li>
                 <a href="stopning.html">Om stöpning</a> 
@@ -59,21 +60,6 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="info">
-            <ul>
-                <li>Komsta 147</li>
-                <li>841 71 Fränsta</li>
-                <li> <a href="mailto:franstaljusstoperi@gmail.com">maila oss</a></li>
-            </ul>
-            <div class="social-media-links">
-                <ul>
-                    <il><a href= "https://www.facebook.com/fransta18/"> <img src="../../img/fblogo.png" alt="Facebook Logo"></a></il>
-                    <il><a href= "https://www.instagram.com/franstaljusstoperi/"> <img src="../../img/instalogo.png" alt="Instagram"></a></il>
-                </ul>
-            </div>
-        </div>
-        
-    </footer>
+    <div id="footer"></div>
   </body>
 </html>

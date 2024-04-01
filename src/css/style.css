@@ -171,6 +171,7 @@ nav li a:hover {
 
 .home-main p{
     font-style:italic;
+    text-align: center;
 }
 
 .content h1{
@@ -221,7 +222,7 @@ footer .info {
 }
 
 footer img{
-    width:35px;
+    height:35px;
 }
 
 .card {
