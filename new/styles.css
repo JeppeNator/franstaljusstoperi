@@ -20,6 +20,10 @@
     box-sizing: border-box;
 }
 
+table{
+    text-align: left;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     color: var(--text-color);
